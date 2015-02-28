@@ -70,6 +70,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <connections>
+                                            <outlet property="photoImageView" destination="a8n-b4-JfK" id="ebJ-sg-9mX"/>
                                             <outlet property="scaleView" destination="NDx-z5-2Le" id="9cb-p4-K3w"/>
                                         </connections>
                                     </tableViewCell>

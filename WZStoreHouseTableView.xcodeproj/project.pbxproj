@@ -82,9 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				19C1EB2E1AA1EA4D00DB0914 /* WZStoreHouseTableView */,
-				19C1EB0E1AA1EA4300DB0914 /* AppDelegate.swift */,
-				19C1EB101AA1EA4300DB0914 /* ViewController.swift */,
 				19C1EB121AA1EA4300DB0914 /* Main.storyboard */,
+				19C1EB0E1AA1EA4300DB0914 /* AppDelegate.swift */,
+				19C1EB2F1AA1EBAD00DB0914 /* WZScalableTableViewCell.swift */,
+				19C1EB101AA1EA4300DB0914 /* ViewController.swift */,
 				19C1EB151AA1EA4300DB0914 /* Images.xcassets */,
 				19C1EB171AA1EA4300DB0914 /* LaunchScreen.xib */,
 				19C1EB0C1AA1EA4300DB0914 /* Supporting Files */,
@@ -121,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				19C1EB311AA1ECBB00DB0914 /* WZStoreHouseTableView.swift */,
-				19C1EB2F1AA1EBAD00DB0914 /* WZScalableTableViewCell.swift */,
 			);
 			name = WZStoreHouseTableView;
 			sourceTree = "<group>";
@@ -423,6 +423,7 @@
 				19C1EB2A1AA1EA4300DB0914 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19C1EB2B1AA1EA4300DB0914 /* Build configuration list for PBXNativeTarget "WZStoreHouseTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +432,7 @@
 				19C1EB2D1AA1EA4300DB0914 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
