@@ -9,7 +9,7 @@
 import UIKit
 
 class WZScalableTableViewCell:UITableViewCell, WZStoreHouseTableViewTransform {
-    var miniumScale:CGFloat = 0.85;
+    let miniumScale:CGFloat = 0.85;
     
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var scaleView: UIView!
