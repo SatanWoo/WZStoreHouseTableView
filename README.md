@@ -24,7 +24,7 @@ That's all for you to do, you can refer to WZScalableTableViewCell as an example
         self.scaleView.transform = CGAffineTransformMakeScale(1.0 - scale, 1.0 - scale);
     }
 
-# Here I only use a linear transformation for simplicity, but you are not constrained to this implementation, you can use any high order math intepolation to implement transformation.
+##### Here I only use a linear transformation for simplicity, but you are not constrained to it. You can use any high order math intepolation to implement transformation.
 
 ## License
 MIT License
