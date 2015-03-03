@@ -19,10 +19,12 @@ In WZStoreHouseTableView.swift, you will find there is a protocol with one varia
 
 That's all for you to do, you can refer to WZScalableTableViewCell as an example, where I set miniumScale variable and conform to the transformCell method.
   
-    var miniumScale:CGFloat = 0.85;
+    let miniumScale:CGFloat = 0.85;
     func transformCell(forScale scale: CGFloat) {
         self.scaleView.transform = CGAffineTransformMakeScale(1.0 - scale, 1.0 - scale);
     }
+
+# Here I only use a linear transformation for simplicity, but you are not constrained to this implementation, you can use any high order math intepolation to implement transformation.
 
 ## License
 MIT License
