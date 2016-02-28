@@ -21,7 +21,7 @@ class WZStoreHouseTableView:UITableView {
     
     private func transform()->Void {
        
-        for indexPath in self.indexPathsForVisibleRows() as [NSIndexPath] {
+        for indexPath in self.indexPathsForVisibleRows! as [NSIndexPath] {
             if let cell = self.cellForRowAtIndexPath(indexPath) as? WZStoreHouseTableViewTransform {
                 let distanceFromCenter = self.computeDistanceFromCenter(indexPath);
                 cell.transformCell(forScale: self.computeScale(distanceFromCenter, minScale: cell.miniumScale));
