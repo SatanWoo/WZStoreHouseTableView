@@ -34,7 +34,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("StoreHouseCell", forIndexPath: indexPath) as WZScalableTableViewCell;
+        let cell = tableView.dequeueReusableCellWithIdentifier("StoreHouseCell", forIndexPath: indexPath) as! WZScalableTableViewCell;
         
         cell.photoImageView.image = UIImage(named: "\(indexPath.row % 2 + 1)");
         return cell;
